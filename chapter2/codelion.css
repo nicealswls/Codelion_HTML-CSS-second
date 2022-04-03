@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+/* 구글 폰트 불러옴 */
+
+* {
+    font-family: 'Montserrat';
+} /* *=이 문서 전체에 해당하는 코드이다 */
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic; /* 글자 기울임 */
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: lighter; /* 아주 얇게 */
+    color: #282828;
+    border-bottom: 1px solid #ebebeb; /* 아래에만 선이 생김, top left right 등 */
+    margin-bottom: 16px;
+    padding-bottom: 5px;
+}
+
+body,h1,h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.name-text {                                  
+    font-size: 17px;                         
+    color: #7c7c7c;
+    font-weight: bold; /* 글자 두께 지정 */
+}
+
+.mainbox {
+    border: 1px solid #ebebeb; /* solid는 가장 진하게 한다는 뜻 */
+
+    margin-left: auto; /* 12, 13번째 줄 코드: 박스 전체 가운데 정렬 */
+    margin-right: auto;
+
+    width:610px;
+    padding: 30px; /* 테두리와 내용물 사이 공간 */
+    margin: 30px; /* 박스 바깥 공간 */
+
+    box-shadow: 0 1px 20px 0 rgba(0,0,0,0.1);
+}
+
+footer {
+    text-align: center;
+    background-color: #1e1e1e;
+    color: #919191;
+    font-size: 12px;
+}
+
+section {
+    margin-bottom: 24px;
+}
+
+.about-me-text {
+    font-size: 10px;
+    line-height: 16px; /* 줄간격 조절 */
+}
+
+.title-text {
+    font-size: 11px;
+    font-weight: bold;
+    color: #282828;
+    float: left; /* 왼쪽에서 둥둥 떠다님 */
+}
+
+.year-text {
+    font-size: 11px;
+    font-weight: bold;
+    color: #282828;
+    float: right; /* 오른쪽에서 둥둥 떠다님 */
+}
+
+.float-wrap {
+    overflow: hidden;
+} /* float들 묶고, 이 다음에 오는 태그들이 float 영향을 받지 않도록 함 */
+
+.desc-text {
+    font-size: 9px;
+}
+
+.desc-subtext {
+    font-size: 9px;
+    color: #282828;
+    padding-left: 16px;
+}
+
+.title-box {
+    text-align: right;
+}
+
+.sns-img {
+    width: 60px;
+    height: 40px;
+}
